@@ -22,7 +22,6 @@ def addTwoNumbers(l1, l2):
     
     return dummy.next
 
-# Example usage
 def print_list(head):
     values = []
     while head:
@@ -30,7 +29,7 @@ def print_list(head):
         head = head.next
     print(values)
 
-l1 = ListNode(2, ListNode(4, ListNode(3)))  # Represents 342
-l2 = ListNode(5, ListNode(6, ListNode(4)))  # Represents 465
-sum_head = addTwoNumbers(l1, l2)  # Should represent 807
+l1 = ListNode(2, ListNode(4, ListNode(3)))  
+l2 = ListNode(5, ListNode(6, ListNode(4)))
+sum_head = addTwoNumbers(l1, l2)
 print_list(sum_head)
